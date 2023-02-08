@@ -1,3 +1,3 @@
 export const SERVICE_CONFIG = {
-  BASE_URL: "http://localhost:4000",
+  BASE_URL: "https://yt-comments-api.onrender.com",
 };
