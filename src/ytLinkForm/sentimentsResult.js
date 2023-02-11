@@ -11,13 +11,19 @@ export const SentimentResult = ({ sentiments = [] }) => {
               <div className="yt-title">{sentiment.title}</div>
               <hr />
               <div className="engagement">
-                <span className="value">{sentiment.viewCount}</span>
+                <span className="value">
+                  {parseInt(sentiment.viewCount).toLocaleString("en-US")}
+                </span>
                 <span className="type">Views</span>
                 <span className="verticle-divider"></span>
-                <span className="value">{sentiment.likeCount}</span>
+                <span className="value">
+                  {parseInt(sentiment.likeCount).toLocaleString("en-US")}
+                </span>
                 <span className="type">Likes</span>
                 <span className="verticle-divider"></span>
-                <span className="value">{sentiment.commentCount}</span>
+                <span className="value">
+                  {parseInt(sentiment.commentCount).toLocaleString("en-US")}
+                </span>
                 <span className="type">Comments</span>
                 <span className="verticle-divider"></span>
                 <span className="value">{sentiment.engagement}%</span>
