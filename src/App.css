@@ -182,3 +182,27 @@ input {
 .analysis-text {
   font-family: "Rubik", sans-serif;
 }
+
+.engagement {
+  display: flex;
+  font-size: 14px;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.engagement .type {
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.engagement .value {
+  font-weight: 400;
+}
+
+.verticle-divider {
+  height: 16px;
+  width: 1px;
+  background-color: #4a5567;
+  margin-left: 10px;
+  margin-right: 10px;
+}
