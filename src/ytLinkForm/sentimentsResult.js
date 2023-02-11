@@ -3,7 +3,7 @@ export const SentimentResult = ({ sentiments = [] }) => {
     <div>
       <div>
         <h3 className="analysis-text">
-          Analysis of Most Relevant User Comments
+          Analysis of 50 Most Relevant User Comments
         </h3>
         {sentiments.map((sentiment) => {
           return (
